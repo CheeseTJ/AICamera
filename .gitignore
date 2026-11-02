@@ -1,0 +1,37 @@
+# Gradle
+.gradle/
+build/
+*/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Android
+local.properties
+*.apk
+*.aab
+*.ap_
+*.dex
+captures/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 本地环境覆盖（不要提交，含机器相关路径）
+gradle-local.properties
+
+# 调试产物
+*.log
+build-out.txt
+test-out.txt
+ui.xml
+screenshot*.png
+screen*.png
+
+# 隐私：调试图像仅在显式授权后导出，禁止入库
+debug-images/
